@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rust on xkevio&#39;s homepage</title>
+    <link>/tags/rust/</link>
+    <description>Recent content in rust on xkevio&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 20:25:57 +0200</lastBuildDate><atom:link href="/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gameboy (DMG) Emulation</title>
+      <link>/posts/gameboy-emulation/</link>
+      <pubDate>Wed, 12 Oct 2022 20:25:57 +0200</pubDate>
+      
+      <guid>/posts/gameboy-emulation/</guid>
+      <description>Working on a gameboy emulator currently&amp;hellip;</description>
+      <content>&lt;p&gt;Working on a gameboy emulator currently&amp;hellip;&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

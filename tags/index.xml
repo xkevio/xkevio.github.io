@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on xkevio&#39;s homepage</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on xkevio&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Oct 2022 20:25:57 +0200</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emulation</title>
+      <link>/tags/emulation/</link>
+      <pubDate>Wed, 12 Oct 2022 20:25:57 +0200</pubDate>
+      
+      <guid>/tags/emulation/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>gameboy</title>
+      <link>/tags/gameboy/</link>
+      <pubDate>Wed, 12 Oct 2022 20:25:57 +0200</pubDate>
+      
+      <guid>/tags/gameboy/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>/tags/rust/</link>
+      <pubDate>Wed, 12 Oct 2022 20:25:57 +0200</pubDate>
+      
+      <guid>/tags/rust/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>
