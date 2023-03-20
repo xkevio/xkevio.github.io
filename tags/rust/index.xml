@@ -6,15 +6,28 @@
     <description>Recent content in rust on xkevio&#39;s homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Oct 2022 20:25:57 +0200</lastBuildDate><atom:link href="/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Gameboy (DMG) Emulation</title>
+      <title>Game Boy (DMG-01) Emulation</title>
       <link>/posts/gameboy-emulation/</link>
-      <pubDate>Wed, 12 Oct 2022 20:25:57 +0200</pubDate>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>/posts/gameboy-emulation/</guid>
-      <description>Working on a gameboy emulator currently&amp;hellip;</description>
-      <content>&lt;p&gt;Working on a gameboy emulator currently&amp;hellip;&lt;/p&gt;
+      <description>It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published. Now, for people following me on GitHub it has been availabe the entire time but now I am at a point where most major features are implemented, plus a few extras, and the UI is presentable!
+Since I wrote the entre thing in Rust with egui and eframe as my backend, I was able to quite simply compile it to WASM using Trunk.</description>
+      <content>&lt;p&gt;It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published.
+Now, for people following me on GitHub it has been availabe the entire time but now I am at a point where
+most major features are implemented, plus a few extras, and the UI is presentable!&lt;/p&gt;
+&lt;p&gt;Since I wrote the entre thing in Rust with &lt;a href=&#34;https://www.egui.rs/&#34;&gt;&lt;code&gt;egui&lt;/code&gt;&lt;/a&gt; and &lt;code&gt;eframe&lt;/code&gt; as my backend, I was able to quite simply
+compile it to WASM using &lt;a href=&#34;https://trunkrs.dev/&#34;&gt;Trunk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s available here: &lt;a href=&#34;/gameboy&#34;&gt;Click here!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The web version does have a few caveats and limitations such as audio sometimes being a little out of sync,
+no &amp;ldquo;Recent ROMs&amp;rdquo; list and &amp;ldquo;Store Save&amp;rdquo; directly downloading your save data instead of opening a file dialog.
+As for the emulation itself, I didn&amp;rsquo;t do anything crazy or special like a JIT or a FIFO PPU. Nevertheless, it does
+have sub-instruction timing, passes quite a few timer tests (and even serial tests!) and is overall accurate enough
+to play most games.&lt;/p&gt;
+&lt;p&gt;I might write more about some architectural choices in the future and how I leveraged Rust&amp;rsquo;s &lt;code&gt;match&lt;/code&gt; statement
+but in the meantime I am setting my eye on emulating the Nintendo DS and learning about JITs.&lt;/p&gt;
 </content>
     </item>
     
