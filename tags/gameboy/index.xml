@@ -14,11 +14,11 @@
       
       <guid>/posts/gameboy-emulation/</guid>
       <description>It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published. Now, for people following me on GitHub it has been availabe the entire time but now I am at a point where most major features are implemented, plus a few extras, and the UI is presentable!
-Since I wrote the entre thing in Rust with egui and eframe as my backend, I was able to quite simply compile it to WASM using Trunk.</description>
+Since I wrote the entire thing in Rust with egui and eframe as my backend, I was able to quite simply compile it to WASM using Trunk.</description>
       <content>&lt;p&gt;It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published.
 Now, for people following me on GitHub it has been availabe the entire time but now I am at a point where
 most major features are implemented, plus a few extras, and the UI is presentable!&lt;/p&gt;
-&lt;p&gt;Since I wrote the entre thing in Rust with &lt;a href=&#34;https://www.egui.rs/&#34;&gt;&lt;code&gt;egui&lt;/code&gt;&lt;/a&gt; and &lt;code&gt;eframe&lt;/code&gt; as my backend, I was able to quite simply
+&lt;p&gt;Since I wrote the entire thing in Rust with &lt;a href=&#34;https://www.egui.rs/&#34;&gt;&lt;code&gt;egui&lt;/code&gt;&lt;/a&gt; and &lt;code&gt;eframe&lt;/code&gt; as my backend, I was able to quite simply
 compile it to WASM using &lt;a href=&#34;https://trunkrs.dev/&#34;&gt;Trunk&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;It&amp;rsquo;s available here: &lt;a href=&#34;/gameboy&#34;&gt;Click here!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The web version does have a few caveats and limitations such as audio sometimes being a little out of sync,
