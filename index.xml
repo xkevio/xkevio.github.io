@@ -58,12 +58,14 @@ main point of study at university &amp;ndash; from raytracers in CUDA to simple 
       
       <guid>/resume/</guid>
       <description>Kevin Kulot where to find me.
-@ kevinakulot@gmail.com github 📌 magdeburg, germany Education BSc. Computational Visualistics (OvGU Magdeburg) Oct 2019 - Present
+@ kevinakulot@gmail.com github 📌 magdeburg, germany Education M.Sc. Computer Science (OvGU Magdeburg) April 2024 - Present
+ongoing&amp;hellip;
+B.Sc. Computational Visualistics (OvGU Magdeburg) Oct 2019 - May 2024
 With a special focus on computer graphics and visualization.
+Overall grade: 1.8. Thesis grade: 1.2.
+Performance Analysis of LLVM and Cranelift Codegen for Just-in-Time Compilation in Emulation.
 Abitur (equiv. A-levels) Aug 2011 - July 2019
-Advanced courses: English and Physics. Grade: 1.8 (GPA: 3.2).
-Experience HiWi assisting with automatic robot pathfinding @ Institute for Intelligent Cooperating Systems (FIN, OvGU). Jan 2023 - June 2023
-Assisted with writing an automatic robot arm pathfinding library using C++, additional tools: vcpkg.</description>
+Advanced courses: English and Physics.</description>
       <content>&lt;h1 id=&#34;kevin-kulot&#34;&gt;Kevin Kulot&lt;/h1&gt;
 &lt;p&gt;where to find me.&lt;/p&gt;
 &lt;table&gt;
@@ -88,8 +90,16 @@ Assisted with writing an automatic robot arm pathfinding library using C++, addi
 &lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;BSc. Computational Visualistics (OvGU Magdeburg)&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;Oct 2019 - Present&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;With a special focus on computer graphics and visualization.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M.Sc. Computer Science (OvGU Magdeburg)&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;April 2024 - Present&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ongoing&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;B.Sc. Computational Visualistics (OvGU Magdeburg)&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;Oct 2019 - May 2024&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;With a special focus on computer graphics and visualization.&lt;br&gt;
+Overall grade: 1.8. Thesis grade: 1.2.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;../thesis.pdf&#34;&gt;&lt;em&gt;Performance Analysis of LLVM and Cranelift Codegen for Just-in-Time Compilation in Emulation.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Abitur (equiv. A-levels)&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;Aug 2011 - July 2019&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
@@ -98,6 +108,12 @@ Assisted with writing an automatic robot arm pathfinding library using C++, addi
 &lt;/ul&gt;
 &lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
 &lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Internship developing medical sensor software @ &lt;a href=&#34;https://surag-medical.com/&#34;&gt;SURAG Medical GmbH&lt;/a&gt;.&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;April 2023 - July 2023&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a prototype for audio-based dual laparoscopy sensor firmware in Rust.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;HiWi assisting with automatic robot pathfinding @ &lt;br&gt;Institute for Intelligent Cooperating Systems (FIN, OvGU).&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;Jan 2023 - June 2023&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -125,7 +141,7 @@ Assisted with writing an automatic robot arm pathfinding library using C++, addi
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-&lt;p&gt;See &lt;a href=&#34;../showcase&#34;&gt;Showcase&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&#34;/showcase/&#34;&gt;Showcase&lt;/a&gt;!&lt;/p&gt;
 </content>
     </item>
     
