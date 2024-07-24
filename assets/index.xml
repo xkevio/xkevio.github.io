@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xkevio&#39;s homepage</title>
+    <link>/</link>
+    <description>Recent content on xkevio&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Boy (DMG-01) Emulation</title>
+      <link>/posts/gameboy-emulation/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/gameboy-emulation/</guid>
+      <description>It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published. Now, for people following me on GitHub it has been availabe the entire time but now I am at a point where most major features are implemented, plus a few extras, and the UI is presentable!
+Since I wrote the entire thing in Rust with egui and eframe as my backend, I was able to quite simply compile it to WASM using Trunk.</description>
+      <content>&lt;p&gt;It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published.
+Now, for people following me on GitHub it has been availabe the entire time but now I am at a point where
+most major features are implemented, plus a few extras, and the UI is presentable!&lt;/p&gt;
+&lt;p&gt;Since I wrote the entire thing in Rust with &lt;a href=&#34;https://www.egui.rs/&#34;&gt;&lt;code&gt;egui&lt;/code&gt;&lt;/a&gt; and &lt;code&gt;eframe&lt;/code&gt; as my backend, I was able to quite simply
+compile it to WASM using &lt;a href=&#34;https://trunkrs.dev/&#34;&gt;Trunk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s available here: &lt;a href=&#34;/gameboy&#34;&gt;Click here!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The web version does have a few caveats and limitations such as audio sometimes being a little out of sync,
+no &amp;ldquo;Recent ROMs&amp;rdquo; list and &amp;ldquo;Store Save&amp;rdquo; directly downloading your save data instead of opening a file dialog.
+As for the emulation itself, I didn&amp;rsquo;t do anything crazy or special like a JIT or a FIFO PPU. Nevertheless, it does
+have sub-instruction timing, passes quite a few timer tests (and even serial tests!) and is overall accurate enough
+to play most games.&lt;/p&gt;
+&lt;p&gt;I might write more about some architectural choices in the future and how I leveraged Rust&amp;rsquo;s &lt;code&gt;match&lt;/code&gt; statement
+but in the meantime I am setting my eye on emulating the Nintendo DS and learning about JITs.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hey, my name is Kevin! I quite like systems programming and computer graphics &amp;ndash; my languages of choice are Rust and C++ (sometimes). Currently, I am quite obsessed with emulation development and its exponentially growing complexity.
+I&amp;rsquo;ve written both a simple CHIP-8 and a Color Game Boy emulator so far; I plan to tackle the Nintendo DS next while learning about Just-in-Time compilation! From time to time, I also dabble in computer graphics as that is my main point of study at university &amp;ndash; from raytracers in CUDA to simple mesh processing.</description>
+      <content>&lt;p&gt;Hey, my name is Kevin! I quite like systems programming and computer graphics &amp;ndash; my languages of choice
+are Rust and C++ (sometimes). Currently, I am quite obsessed with emulation development and its exponentially growing complexity.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve written both a simple &lt;a href=&#34;https://en.wikipedia.org/wiki/CHIP-8&#34;&gt;CHIP-8&lt;/a&gt; and a &lt;a href=&#34;https://github.com/xkevio/kevboy&#34;&gt;Color Game Boy&lt;/a&gt; emulator so far;
+I plan to tackle the Nintendo DS next while learning about Just-in-Time compilation!
+From time to time, I also dabble in computer graphics as that is my
+main point of study at university &amp;ndash; from raytracers in CUDA to simple mesh processing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;: &lt;a href=&#34;https://twitter.com/xkevio&#34;&gt;@xkevio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;: &lt;a href=&#34;https://github.com/xkevio&#34;&gt;https://github.com/xkevio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Discord&lt;/strong&gt;: @xkevio&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Résumé / CV</title>
+      <link>/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resume/</guid>
+      <description>Kevin Kulot where to find me.
+@ kevinakulot@gmail.com github 📌 magdeburg, germany Education M.Sc. Computer Science (OvGU Magdeburg) April 2024 - Present
+ongoing&amp;hellip;
+B.Sc. Computational Visualistics (OvGU Magdeburg) Oct 2019 - May 2024
+With a special focus on computer graphics and visualization.
+Overall grade: 1.8. Thesis grade: 1.2.
+Performance Analysis of LLVM and Cranelift Codegen for Just-in-Time Compilation in Emulation.
+Abitur (equiv. A-levels) Aug 2011 - July 2019
+Advanced courses: English and Physics.</description>
+      <content>&lt;h1 id=&#34;kevin-kulot&#34;&gt;Kevin Kulot&lt;/h1&gt;
+&lt;p&gt;where to find me.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;@&lt;/strong&gt; &lt;a href=&#34;mailto:kevinakulot@gmail.com&#34;&gt;kevinakulot@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;
+  &lt;img src=&#34;/images/github-mark-white.svg&#34;  alt=&#34;GitHub icon&#34;  class=&#34;center&#34;  style=&#34;width: 12%;display: inline;vertical-align: top&#34;  /&gt;
+
+&lt;a href=&#34;https://github.com/xkevio&#34;&gt;github&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;📌 magdeburg, germany&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;M.Sc. Computer Science (OvGU Magdeburg)&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;April 2024 - Present&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ongoing&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;B.Sc. Computational Visualistics (OvGU Magdeburg)&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;Oct 2019 - May 2024&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;With a special focus on computer graphics and visualization.&lt;br&gt;
+Overall grade: 1.8. Thesis grade: 1.2.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;../thesis.pdf&#34;&gt;&lt;em&gt;Performance Analysis of LLVM and Cranelift Codegen for Just-in-Time Compilation in Emulation.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Abitur (equiv. A-levels)&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;Aug 2011 - July 2019&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Advanced courses: English and Physics. Grade: 1.8 (GPA: 3.2).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Internship developing medical sensor software @ &lt;a href=&#34;https://surag-medical.com/&#34;&gt;SURAG Medical GmbH&lt;/a&gt;.&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;April 2023 - July 2023&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a prototype for audio-based dual laparoscopy sensor firmware in Rust.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HiWi assisting with automatic robot pathfinding @ &lt;br&gt;Institute for Intelligent Cooperating Systems (FIN, OvGU).&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;Jan 2023 - June 2023&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Assisted with writing an automatic robot arm pathfinding library using C++, additional tools: &lt;em&gt;vcpkg&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;TA for the course &amp;ldquo;Introduction to CS&amp;rdquo; @ &lt;br&gt;Institute for Simulation &amp;amp; Graphics (FIN, OvGU).&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;Oct 2022 - Dec 2022&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Held weekly tutorial sessions and reviewed students&amp;rsquo; code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;TA for the course &amp;ldquo;Programming Paradigms&amp;rdquo; @ &lt;br&gt;Institute for Intelligent Cooperating Systems (FIN, OvGU).&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;April 2022 - Sep 2022&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Held and prepared weekly exercise lessons with various programming languages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HiWi assisting with ray-tracing simulations @ &lt;br&gt; Institute for Simulation &amp;amp; Graphics (FIN, OvGU).&lt;/strong&gt; &lt;em&gt;&lt;span style=&#34;float:right;&#34;&gt;&lt;code&gt;May 2021 - Jan 2022&lt;/code&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Assisted with physically-based ray-tracing simulations using &lt;em&gt;pbrt&lt;/em&gt; to examine heat transfer and heat propagation.&lt;/li&gt;
+&lt;li&gt;Gained experience using &lt;em&gt;Python&lt;/em&gt; scripts for cluster simulation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+&lt;p&gt;See &lt;a href=&#34;/showcase/&#34;&gt;Showcase&lt;/a&gt;!&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Showcase</title>
+      <link>/showcase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/showcase/</guid>
+      <description>Color Game Boy Emulator (+ DMG-01) Written in Rust, uses egui for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation. Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. chip8rs (CHIP-8 Emulator) Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the #emudev scene. CUDA-Raytracer A simple ray tracer written with CUDA that saves its output in a .</description>
+      <content>&lt;h4 id=&#34;color-game-boy-emulator--dmg-01&#34;&gt;Color Game Boy Emulator (+ DMG-01)&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/xkevio/kevboy&#34;&gt;
+  &lt;img src=&#34;/images/kevboy.png&#34;  alt=&#34;Pokémon Crystal running on a GBC emulator&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px&#34;  /&gt;
+
+&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Written in Rust, uses &lt;code&gt;egui&lt;/code&gt; for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;creasy-computational-origami-crease-patterns&#34;&gt;Creasy (Computational Origami, Crease Patterns)&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences.&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/xkevio/Creasy&#34;&gt;
+  &lt;img src=&#34;/images/creasy.png&#34;  alt=&#34;A white C on a light blue background&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px; width: 70%&#34;  /&gt;
+
+&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;chip8rs-chip-8-emulator&#34;&gt;chip8rs (CHIP-8 Emulator)&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/xkevio/chip-8rs&#34;&gt;
+  &lt;img src=&#34;/images/chip-8.png&#34;  alt=&#34;IBM logo on a CHIP-8 emulator&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px&#34;  /&gt;
+
+&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the &lt;code&gt;#emudev&lt;/code&gt; scene.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;cuda-raytracer&#34;&gt;CUDA-Raytracer&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;A simple ray tracer written with CUDA that saves its output in a &lt;code&gt;.ppm&lt;/code&gt; file. This was made as a final project for a GPU programming course (includes a CPU version for benchmarking).&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://github.com/xkevio/CUDA-Raytracer&#34;&gt;
+  &lt;img src=&#34;/images/balls.png&#34;  alt=&#34;Colorful balls&#34;  class=&#34;center&#34;  style=&#34;border-radius: 8px; width: 70%&#34;  /&gt;
+
+&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
