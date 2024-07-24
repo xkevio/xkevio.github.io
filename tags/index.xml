@@ -8,7 +8,7 @@
     <language>en</language>
     <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Emulation</title>
+      <title>emulation</title>
       <link>/tags/emulation/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
@@ -18,7 +18,7 @@
     </item>
     
     <item>
-      <title>Gameboy</title>
+      <title>gameboy</title>
       <link>/tags/gameboy/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       
@@ -28,7 +28,7 @@
     </item>
     
     <item>
-      <title>Rust</title>
+      <title>rust</title>
       <link>/tags/rust/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
       

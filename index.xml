@@ -58,7 +58,7 @@ main point of study at university &amp;ndash; from raytracers in CUDA to simple 
       
       <guid>/resume/</guid>
       <description>Kevin Kulot where to find me.
-@ kevinakulot@gmail.com github 📌 magdeburg, germany Education M.Sc. Computer Science (OvGU Magdeburg) April 2024 - Present
+📧 kevinakulot@gmail.com github 📌 magdeburg, germany Education M.Sc. Computer Science (OvGU Magdeburg) April 2024 - Present
 ongoing&amp;hellip;
 B.Sc. Computational Visualistics (OvGU Magdeburg) Oct 2019 - May 2024
 With a special focus on computer graphics and visualization.
@@ -78,9 +78,9 @@ Advanced courses: English and Physics.</description>
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;@&lt;/strong&gt; &lt;a href=&#34;mailto:kevinakulot@gmail.com&#34;&gt;kevinakulot@gmail.com&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;📧&lt;/strong&gt; &lt;a href=&#34;mailto:kevinakulot@gmail.com&#34;&gt;kevinakulot&lt;br class=&#34;hid&#34;&gt;@gmail.com&lt;/a&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;
-  &lt;img src=&#34;/images/github-mark-white.svg&#34;  alt=&#34;GitHub icon&#34;  class=&#34;center&#34;  style=&#34;width: 12%;display: inline;vertical-align: top&#34;  /&gt;
+  &lt;img src=&#34;/images/github-mark-white.svg&#34;  alt=&#34;GitHub icon&#34;  class=&#34;relative&#34;  style=&#34;width: 1em;display: inline;vertical-align: center&#34;  /&gt;
 
 &lt;a href=&#34;https://github.com/xkevio&#34;&gt;github&lt;/a&gt;&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;📌 magdeburg, germany&lt;/td&gt;
@@ -141,7 +141,7 @@ Overall grade: 1.8. Thesis grade: 1.2.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-&lt;p&gt;See &lt;a href=&#34;/showcase/&#34;&gt;Showcase&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;See &lt;a href=&#34;../showcase&#34;&gt;Showcase&lt;/a&gt;!&lt;/p&gt;
 </content>
     </item>
     
