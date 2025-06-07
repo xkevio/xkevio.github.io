@@ -6,27 +6,64 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Color Game Boy Emulator (&#43; DMG-01) Written in Rust, uses egui for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation. Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. chip8rs (CHIP-8 Emulator) Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the #emudev scene. CUDA-Raytracer A simple ray tracer written with CUDA that saves its output in a ." />
+<meta name="description" content="Game Boy Advance Emulator W.I.P. GBA emulator, uses SDL2 for the GUI. Runs most games reasonably well, includes experiments with JIT compilation. Color Game Boy Emulator (&#43; DMG-01) Written in Rust, uses egui for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation. Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. chip8rs (CHIP-8 Emulator) Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the #emudev scene. CUDA-Raytracer A simple ray tracer written with CUDA that saves its output in a .ppm file. This was made as a final project for a GPU programming course (includes a CPU version for benchmarking). " />
 <meta name="keywords" content="" />
-<meta name="robots" content="noodp" />
+
+  <meta name="robots" content="noodp" />
+
 <link rel="canonical" href="/showcase/" />
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
 
-  <link rel="stylesheet" href="/assets/green.css">
+  
+  <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="/css/main.min.d66b5490283aefbe1846bb646d380e3b3acba468e53997e5c3c2f8fb0b4bc651.css">
+
+  
+  <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="/css/terminal.min.4400de9ab9f9a45c8bdecebe17d24c06bedaaa774823989db57b2f4b5b49f0c6.css">
+
+  
+  <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
 
 
 
 <link rel="stylesheet" href="/style.css">
 
 
-<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
-
-  <link rel="shortcut icon" href="/img/favicon/green.png">
-
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 
 <meta name="twitter:card" content="summary" />
@@ -41,16 +78,14 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Showcase">
-<meta property="og:description" content="Color Game Boy Emulator (&#43; DMG-01) Written in Rust, uses egui for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation. Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. chip8rs (CHIP-8 Emulator) Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the #emudev scene. CUDA-Raytracer A simple ray tracer written with CUDA that saves its output in a ." />
+<meta property="og:description" content="Game Boy Advance Emulator W.I.P. GBA emulator, uses SDL2 for the GUI. Runs most games reasonably well, includes experiments with JIT compilation. Color Game Boy Emulator (&#43; DMG-01) Written in Rust, uses egui for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation. Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. chip8rs (CHIP-8 Emulator) Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the #emudev scene. CUDA-Raytracer A simple ray tracer written with CUDA that saves its output in a .ppm file. This was made as a final project for a GPU programming course (includes a CPU version for benchmarking). " />
 <meta property="og:url" content="/showcase/" />
 <meta property="og:site_name" content="xkevio&#39;s homepage" />
 
-  
-    <meta property="og:image" content="/img/favicon/green.png">
-  
+  <meta property="og:image" content="/og-image.png">
 
-<meta property="og:image:width" content="2048">
-<meta property="og:image:height" content="1024">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
 
 
 
@@ -65,10 +100,10 @@
 
 
 </head>
-<body class="green">
+<body>
 
 
-<div class="container center headings--one-size">
+<div class="container center">
 
   <header class="header">
   <div class="header__inner">
@@ -81,13 +116,10 @@
 
     </div>
     
-      <div class="menu-trigger">menu</div>
-    
-  </div>
-  
-    <nav class="menu">
-  <ul class="menu__inner menu__inner--desktop">
-    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
       
         
           <li><a href="/about">About</a></li>
@@ -102,25 +134,31 @@
         
       
       
-    
+    </ul>
+  </li>
+</ul>
 
     
-  </ul>
-
-  <ul class="menu__inner menu__inner--mobile">
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
     
       
-        <li><a href="/about">About</a></li>
+        
+          <li><a href="/about" >About</a></li>
+        
       
-    
+        
+          <li><a href="/resume" >Résumé</a></li>
+        
       
-        <li><a href="/resume">Résumé</a></li>
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
       
-    
       
-        <li><a href="/showcase">Showcase</a></li>
-      
-    
     
   </ul>
 </nav>
@@ -131,14 +169,11 @@
 
   <div class="content">
     
-<div class="post">
+<article class="post">
   <h1 class="post-title">
-    <a href="/showcase/">Showcase</a></h1>
-  <div class="post-meta">
-    
-    
-    
-  </div>
+    <a href="/showcase/">Showcase</a>
+  </h1>
+  <div class="post-meta"></div>
 
   
   
@@ -147,77 +182,95 @@
   
 
   <div class="post-content"><div>
-        <h4 id="color-game-boy-emulator--dmg-01">Color Game Boy Emulator (+ DMG-01)<a href="#color-game-boy-emulator--dmg-01" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+        <h3 id="game-boy-advance-emulator">Game Boy Advance Emulator<a href="#game-boy-advance-emulator" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <table>
-<thead>
-<tr>
-<th></th>
-<th style="text-align:center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/xkevio/kevboy">
-  <img src="/images/kevboy.png"  alt="Pokémon Crystal running on a GBC emulator"  class="center"  style="border-radius: 8px"  />
+  <thead>
+      <tr>
+          <th style="text-align: center"></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">W.I.P. GBA emulator, uses <code>SDL2</code> for the GUI. Runs most games reasonably well, includes experiments with JIT compilation.</td>
+          <td><a href="https://github.com/xkevio/kba">
+<img src="/images/gba.png"  alt="Pokémon Emerald running on a GBA emulator"  class="center"  style="border-radius: 8px"    />
 
 </a></td>
-<td style="text-align:center">Written in Rust, uses <code>egui</code> for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation.</td>
-</tr>
-</tbody>
+      </tr>
+  </tbody>
 </table>
-<h4 id="creasy-computational-origami-crease-patterns">Creasy (Computational Origami, Crease Patterns)<a href="#creasy-computational-origami-crease-patterns" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<h3 id="color-game-boy-emulator--dmg-01">Color Game Boy Emulator (+ DMG-01)<a href="#color-game-boy-emulator--dmg-01" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences.</td>
-<td><a href="https://github.com/xkevio/Creasy">
-  <img src="/images/creasy.png"  alt="A white C on a light blue background"  class="center"  style="border-radius: 8px; width: 70%"  />
+  <thead>
+      <tr>
+          <th></th>
+          <th style="text-align: center"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://github.com/xkevio/kevboy">
+<img src="/images/kevboy.png"  alt="Pokémon Crystal running on a GBC emulator"  class="center"  style="border-radius: 8px"    />
 
 </a></td>
-</tr>
-</tbody>
+          <td style="text-align: center">Written in Rust, uses <code>egui</code> for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation.</td>
+      </tr>
+  </tbody>
 </table>
-<h4 id="chip8rs-chip-8-emulator">chip8rs (CHIP-8 Emulator)<a href="#chip8rs-chip-8-emulator" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<h3 id="creasy-computational-origami-crease-patterns">Creasy (Computational Origami, Crease Patterns)<a href="#creasy-computational-origami-crease-patterns" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <table>
-<thead>
-<tr>
-<th></th>
-<th style="text-align:center"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="https://github.com/xkevio/chip-8rs">
-  <img src="/images/chip-8.png"  alt="IBM logo on a CHIP-8 emulator"  class="center"  style="border-radius: 8px"  />
+  <thead>
+      <tr>
+          <th style="text-align: center"></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences.</td>
+          <td><a href="https://github.com/xkevio/Creasy">
+<img src="/images/creasy.png"  alt="A white C on a light blue background"  class="center"  style="border-radius: 8px; width: 70%"    />
 
 </a></td>
-<td style="text-align:center">Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the <code>#emudev</code> scene.</td>
-</tr>
-</tbody>
+      </tr>
+  </tbody>
 </table>
-<h4 id="cuda-raytracer">CUDA-Raytracer<a href="#cuda-raytracer" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<h3 id="chip8rs-chip-8-emulator">chip8rs (CHIP-8 Emulator)<a href="#chip8rs-chip-8-emulator" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">A simple ray tracer written with CUDA that saves its output in a <code>.ppm</code> file. This was made as a final project for a GPU programming course (includes a CPU version for benchmarking).</td>
-<td><a href="https://github.com/xkevio/CUDA-Raytracer">
-  <img src="/images/balls.png"  alt="Colorful balls"  class="center"  style="border-radius: 8px; width: 70%"  />
+  <thead>
+      <tr>
+          <th></th>
+          <th style="text-align: center"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://github.com/xkevio/chip-8rs">
+<img src="/images/chip-8.png"  alt="IBM logo on a CHIP-8 emulator"  class="center"  style="border-radius: 8px"    />
 
 </a></td>
-</tr>
-</tbody>
+          <td style="text-align: center">Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the <code>#emudev</code> scene.</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="cuda-raytracer">CUDA-Raytracer<a href="#cuda-raytracer" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">A simple ray tracer written with CUDA that saves its output in a <code>.ppm</code> file. This was made as a final project for a GPU programming course (includes a CPU version for benchmarking).</td>
+          <td><a href="https://github.com/xkevio/CUDA-Raytracer">
+<img src="/images/balls.png"  alt="Colorful balls"  class="center"  style="border-radius: 8px; width: 70%"    />
+
+</a></td>
+      </tr>
+  </tbody>
 </table>
 
       </div></div>
@@ -225,10 +278,10 @@
   
 
   
-  
+    
 
   
-</div>
+</article>
 
   </div>
 
@@ -237,17 +290,19 @@
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2024 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
     
-        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
   </div>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
 
 
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
 
 
 

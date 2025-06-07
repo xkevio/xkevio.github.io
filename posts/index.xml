@@ -4,32 +4,23 @@
     <title>Posts on xkevio&#39;s homepage</title>
     <link>/posts/</link>
     <description>Recent content in Posts on xkevio&#39;s homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emulation, Typesetting, Ricing Linux and more...</title>
+      <link>/posts/website-redesign/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/posts/website-redesign/</guid>
+      <description>&lt;p&gt;Between the last time I edited this website / blog / homepage and now, quite a few things in my life have changed &amp;ndash; my general interests however have stayed the same with a few new additions.&lt;/p&gt;&#xA;&lt;p&gt;I am still very much into developing emulators (with some downtime here and there) and even worked on a new one for the Game Boy Advance, partially also for my &lt;a href=&#34;../thesis.pdf&#34;&gt;bachelor&amp;rsquo;s thesis&lt;/a&gt;. This introduced me to a little bit of Just-in-Time compilation via &lt;a href=&#34;https://cranelift.org&#34;&gt;cranelift&lt;/a&gt; &amp;ndash; which was both a great source of frustration but also fun and learning. The JIT part of my GBA emulator is far from finished, and I should really get back to it as I don&amp;rsquo;t know anyone who has used cranelift for emulation yet, but at the very least the general interpreter is done and many games work, even those using &lt;em&gt;Mode 7&lt;/em&gt;!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Game Boy (DMG-01) Emulation</title>
       <link>/posts/gameboy-emulation/</link>
       <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>/posts/gameboy-emulation/</guid>
-      <description>It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published. Now, for people following me on GitHub it has been availabe the entire time but now I am at a point where most major features are implemented, plus a few extras, and the UI is presentable!
-Since I wrote the entire thing in Rust with egui and eframe as my backend, I was able to quite simply compile it to WASM using Trunk.</description>
-      <content>&lt;p&gt;It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published.
-Now, for people following me on GitHub it has been availabe the entire time but now I am at a point where
-most major features are implemented, plus a few extras, and the UI is presentable!&lt;/p&gt;
-&lt;p&gt;Since I wrote the entire thing in Rust with &lt;a href=&#34;https://www.egui.rs/&#34;&gt;&lt;code&gt;egui&lt;/code&gt;&lt;/a&gt; and &lt;code&gt;eframe&lt;/code&gt; as my backend, I was able to quite simply
-compile it to WASM using &lt;a href=&#34;https://trunkrs.dev/&#34;&gt;Trunk&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s available here: &lt;a href=&#34;/gameboy&#34;&gt;Click here!&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The web version does have a few caveats and limitations such as audio sometimes being a little out of sync,
-no &amp;ldquo;Recent ROMs&amp;rdquo; list and &amp;ldquo;Store Save&amp;rdquo; directly downloading your save data instead of opening a file dialog.
-As for the emulation itself, I didn&amp;rsquo;t do anything crazy or special like a JIT or a FIFO PPU. Nevertheless, it does
-have sub-instruction timing, passes quite a few timer tests (and even serial tests!) and is overall accurate enough
-to play most games.&lt;/p&gt;
-&lt;p&gt;I might write more about some architectural choices in the future and how I leveraged Rust&amp;rsquo;s &lt;code&gt;match&lt;/code&gt; statement
-but in the meantime I am setting my eye on emulating the Nintendo DS and learning about JITs.&lt;/p&gt;
-</content>
+      <description>&lt;p&gt;It&amp;rsquo;s been a few months but my Game Boy emulator is all but finished &amp;ndash; or at least ready to be published.&#xA;Now, for people following me on GitHub it has been available the entire time but now I am at a point where&#xA;most major features are implemented, plus a few extras, and the UI is presentable!&lt;/p&gt;&#xA;&lt;p&gt;Since I wrote the entire thing in Rust with &lt;a href=&#34;https://www.egui.rs/&#34;&gt;&lt;code&gt;egui&lt;/code&gt;&lt;/a&gt; and &lt;code&gt;eframe&lt;/code&gt; as my backend, I was able to quite simply&#xA;compile it to WASM using &lt;a href=&#34;https://trunkrs.dev/&#34;&gt;Trunk&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -4,38 +4,44 @@
     <title>Tags on xkevio&#39;s homepage</title>
     <link>/tags/</link>
     <description>Recent content in Tags on xkevio&#39;s homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>emulation</title>
+      <title>Emulation</title>
       <link>/tags/emulation/</link>
-      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>/tags/emulation/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
-      <title>gameboy</title>
-      <link>/tags/gameboy/</link>
-      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gameboy/</guid>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/linux/</guid>
       <description></description>
-      <content></content>
     </item>
-    
     <item>
-      <title>rust</title>
+      <title>Rust</title>
       <link>/tags/rust/</link>
-      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
-      
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
       <guid>/tags/rust/</guid>
       <description></description>
-      <content></content>
     </item>
-    
+    <item>
+      <title>Typst</title>
+      <link>/tags/typst/</link>
+      <pubDate>Sat, 07 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/tags/typst/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gameboy</title>
+      <link>/tags/gameboy/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>/tags/gameboy/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
