@@ -6,8 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="κba (Game Boy Advance Emulator) W.I.P. Game Boy Advance emulator, using SDL2 for the GUI. Runs most games reasonably well, includes experiments with JIT1 compilation. kevboy &ndash; Color Game Boy Emulator (&#43; DMG-01) A Game Boy and Game Boy Color emulator written in Rust, using egui for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation. &raquo; Try it here! &laquo; Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. chip8rs (CHIP-8 Emulator) Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the #emudev scene. CUDA-Raytracer A simple ray tracer written with CUDA that saves its output in a .ppm file. This was made as a final project for a GPU programming course (includes a CPU version for benchmarking). By utilizing the cranelift crate and its IR.&#160;&#x21a9;&#xfe0e;
-" />
+<meta name="description" content="κba (Game Boy Advance Emulator) W.I.P. Game Boy Advance emulator, using SDL2 for the GUI. Runs most games reasonably well, includes experiments with JIT compilation (by utilizing the cranelift crate). Uses a LUT generated at build-time for opcode lookups based on certain bit patterns. kevboy &ndash; Color Game Boy Emulator (&#43; DMG-01) A Game Boy and Game Boy Color emulator written in Rust, using egui for an immediate mode GUI and WASM-based browser version. Runs reasonably fast and marks my first real foray into console emulation. &gt;&gt; Try it here! &lt;&lt; parcio-thesis/parcio-slides &ndash; Thesis &amp; Slide Templates for Typst ParCIO-inspired thesis, report & slides template made with Typst. Officially endorsed by the head of the working group and used since in numerous theses instead of the LaTeX variants. Submitted to the Typst Universe as to make it available within the Typst package management ecosystem; maintained through several version updates. retrofit &ndash; Custom Backreferences for Typst Bibliographies retrofit adds backreferences to each bibliography entry in a Typst document. More precisely, retrofit queries for all instances of a citation in the document, collects the page(s) it is on and formats them according to the specified function, while keeping them in the link element to the location. Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. " />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
@@ -22,7 +21,7 @@
   <link rel="stylesheet" href="/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
 
   
-  <link rel="stylesheet" href="/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+  <link rel="stylesheet" href="/css/code.min.c4581949edab7810737609fc5568852bcd908945f14561e366dcd2300a370545.css">
 
   
   <link rel="stylesheet" href="/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
@@ -37,7 +36,7 @@
   <link rel="stylesheet" href="/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
 
   
-  <link rel="stylesheet" href="/css/main.min.d66b5490283aefbe1846bb646d380e3b3acba468e53997e5c3c2f8fb0b4bc651.css">
+  <link rel="stylesheet" href="/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
 
   
   <link rel="stylesheet" href="/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
@@ -49,16 +48,16 @@
   <link rel="stylesheet" href="/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
 
   
-  <link rel="stylesheet" href="/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+  <link rel="stylesheet" href="/css/syntax.min.a2cc694a9b481f15d41722bffc2cc54eea4c4f74fd9072b0b33253604c22606e.css">
 
   
-  <link rel="stylesheet" href="/css/terminal.min.4400de9ab9f9a45c8bdecebe17d24c06bedaaa774823989db57b2f4b5b49f0c6.css">
+  <link rel="stylesheet" href="/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
 
   
   <link rel="stylesheet" href="/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
 
 
-
+<link rel="stylesheet" href="/terminal.css">
 
 <link rel="stylesheet" href="/style.css">
 
@@ -79,8 +78,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Showcase">
-<meta property="og:description" content="κba (Game Boy Advance Emulator) W.I.P. Game Boy Advance emulator, using SDL2 for the GUI. Runs most games reasonably well, includes experiments with JIT1 compilation. kevboy &ndash; Color Game Boy Emulator (&#43; DMG-01) A Game Boy and Game Boy Color emulator written in Rust, using egui for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation. &raquo; Try it here! &laquo; Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. chip8rs (CHIP-8 Emulator) Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the #emudev scene. CUDA-Raytracer A simple ray tracer written with CUDA that saves its output in a .ppm file. This was made as a final project for a GPU programming course (includes a CPU version for benchmarking). By utilizing the cranelift crate and its IR.&#160;&#x21a9;&#xfe0e;
-" />
+<meta property="og:description" content="κba (Game Boy Advance Emulator) W.I.P. Game Boy Advance emulator, using SDL2 for the GUI. Runs most games reasonably well, includes experiments with JIT compilation (by utilizing the cranelift crate). Uses a LUT generated at build-time for opcode lookups based on certain bit patterns. kevboy &ndash; Color Game Boy Emulator (&#43; DMG-01) A Game Boy and Game Boy Color emulator written in Rust, using egui for an immediate mode GUI and WASM-based browser version. Runs reasonably fast and marks my first real foray into console emulation. &gt;&gt; Try it here! &lt;&lt; parcio-thesis/parcio-slides &ndash; Thesis &amp; Slide Templates for Typst ParCIO-inspired thesis, report & slides template made with Typst. Officially endorsed by the head of the working group and used since in numerous theses instead of the LaTeX variants. Submitted to the Typst Universe as to make it available within the Typst package management ecosystem; maintained through several version updates. retrofit &ndash; Custom Backreferences for Typst Bibliographies retrofit adds backreferences to each bibliography entry in a Typst document. More precisely, retrofit queries for all instances of a citation in the document, collects the page(s) it is on and formats them according to the specified function, while keeping them in the link element to the location. Creasy (Computational Origami, Crease Patterns) Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences. " />
 <meta property="og:url" content="/showcase/" />
 <meta property="og:site_name" content="xkevio&#39;s homepage" />
 
@@ -112,7 +110,7 @@
     <div class="header__logo">
       <a href="/">
   <div class="logo">
-    xkevio&#39;s blog
+    xkevio&#39;s homepage
   </div>
 </a>
 
@@ -185,103 +183,62 @@
 
   <div class="post-content"><div>
         <h3 id="κba-game-boy-advance-emulator">κba (Game Boy Advance Emulator)<a href="#κba-game-boy-advance-emulator" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center"></th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">W.I.P. Game Boy Advance emulator, using <code>SDL2</code> for the GUI. Runs most games reasonably well, includes experiments with JIT<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> compilation.</td>
-          <td><a href="https://github.com/xkevio/kba">
-<img src="/images/gba.png"  alt="Pokémon Emerald running on a GBA emulator"  class="center"  style="border-radius: 8px"    />
-
-</a></td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="kevboy--color-game-boy-emulator--dmg-01">kevboy &ndash; Color Game Boy Emulator (+ DMG-01)<a href="#kevboy--color-game-boy-emulator--dmg-01" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<table>
-  <thead>
-      <tr>
-          <th></th>
-          <th style="text-align: center"></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><a href="https://github.com/xkevio/kevboy">
-<img src="/images/kevboy.png"  alt="Pokémon Crystal running on a GBC emulator"  class="center"  style="border-radius: 8px"    />
-
-</a></td>
-          <td style="text-align: center">A Game Boy and Game Boy Color emulator written in Rust, using <code>egui</code> for an immediate mode GUI. Runs reasonably fast and marks my first real foray into console emulation. <br> <br> <a href="../gameboy">&raquo; Try it here! &laquo;</a></td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="creasy-computational-origami-crease-patterns">Creasy (Computational Origami, Crease Patterns)<a href="#creasy-computational-origami-crease-patterns" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center"></th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences.</td>
-          <td><a href="https://github.com/xkevio/Creasy">
-<img src="/images/creasy.png"  alt="A white C on a light blue background"  class="center"  style="border-radius: 8px; width: 70%"    />
-
-</a></td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="chip8rs-chip-8-emulator">chip8rs (CHIP-8 Emulator)<a href="#chip8rs-chip-8-emulator" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<table>
-  <thead>
-      <tr>
-          <th></th>
-          <th style="text-align: center"></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><a href="https://github.com/xkevio/chip-8rs">
-<img src="/images/chip-8.png"  alt="IBM logo on a CHIP-8 emulator"  class="center"  style="border-radius: 8px"    />
-
-</a></td>
-          <td style="text-align: center">Yet another CHIP-8 emulator, written in Rust. My humble beginnings in the <code>#emudev</code> scene.</td>
-      </tr>
-  </tbody>
-</table>
-<h3 id="cuda-raytracer">CUDA-Raytracer<a href="#cuda-raytracer" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center"></th>
-          <th></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">A simple ray tracer written with CUDA that saves its output in a <code>.ppm</code> file. This was made as a final project for a GPU programming course (includes a CPU version for benchmarking).</td>
-          <td><a href="https://github.com/xkevio/CUDA-Raytracer">
-<img src="/images/balls.png"  alt="Colorful balls"  class="center"  style="border-radius: 8px; width: 70%"    />
-
-</a></td>
-      </tr>
-  </tbody>
-</table>
-<div class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1">
-<p>By utilizing the cranelift crate and its IR.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
+<div style="display:grid;grid-template-columns: 1fr 1fr">
+  <div style="text-align:center;margin:auto">
+    W.I.P. Game Boy Advance emulator, using <code>SDL2</code> for the GUI. Runs most games reasonably well, includes experiments with JIT compilation (by utilizing the <code>cranelift</code> crate).
+    <br><br>
+    Uses a <abbr title="Lookup Table">LUT</abbr> generated at build-time for opcode lookups based on certain bit patterns.
+  </div>
+  <div>
+    <a href="https://github.com/xkevio/kba"><img style="margin: 0" src="/images/gba.png" alt="Pokémon Emerald running on a GBA emulator"></a>
+  </div>
 </div>
+<hr>
+<h3 id="kevboy--color-game-boy-emulator--dmg-01">kevboy &ndash; Color Game Boy Emulator (+ DMG-01)<a href="#kevboy--color-game-boy-emulator--dmg-01" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div style="display:grid;grid-template-columns: 1fr 1fr">
+  <div>
+    <a href="https://github.com/xkevio/kevboy"><img style="margin: 0" src="/images/kevboy.png" alt="Pokémon Crystal running on a GBC emulator"></a>
+  </div>
+  <div style="text-align:center;margin:auto">
+    A Game Boy and Game Boy Color emulator written in Rust, using <code>egui</code> for an immediate mode GUI and WASM-based browser version. Runs reasonably fast and marks my first real foray into console emulation. <br> <br> <a href="https://xkev.io/gameboy">>> Try it here! <<</a>
+  </div>
+</div>
+<hr>
+<h3 id="parcio-thesisparcio-slides--thesis--slide-templates-for-typst">parcio-thesis/parcio-slides &ndash; Thesis &amp; Slide Templates for Typst<a href="#parcio-thesisparcio-slides--thesis--slide-templates-for-typst" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div style="display:grid;grid-template-columns: 1fr 1fr">
+  <div style="text-align:center;margin: auto 20pt auto auto">
+    <abbr title="Parallel Computing and I/O working group at OVGU Magdeburg">ParCIO-inspired</abbr> thesis, report & slides template made with Typst.
+    Officially endorsed by the head of the working group and used since in numerous theses instead of the LaTeX variants.
+    <br><br>
+    Submitted to the Typst Universe as to make it available within the Typst package management ecosystem; maintained through several version updates.
+  </div>
+  <div>
+    <a href="https://typst.app/universe/package/parcio-thesis"><img style="margin: 0;filter:drop-shadow(5px 5px silver)" src="/images/thesis.png" alt="A thesis title page with default values"></a>
+  </div>
+</div>
+<hr>
+<h3 id="retrofit--custom-backreferences-for-typst-bibliographies">retrofit &ndash; Custom Backreferences for Typst Bibliographies<a href="#retrofit--custom-backreferences-for-typst-bibliographies" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div style="display:grid;grid-template-columns: 1fr 1fr">
+  <div>
+    <a href="https://typst.app/universe/package/retrofit"><img style="margin: 0;filter: drop-shadow(-5px 5px rgb(30 30 30))" src="/images/retrofit.png" alt="A screenshot of Typst code using the retrofit package and the resulting render"></a>
+  </div>
+  <div style="text-align:center;margin:auto">
+    retrofit adds backreferences to each bibliography entry in a Typst document.
+    <br><br>
+    More precisely, retrofit queries for all instances of a citation in the document, collects the page(s) it is on and formats them according to the specified function, while keeping them in the <code>link</code> element to the location.
+  </div>
+</div>
+<hr>
+<h3 id="creasy-computational-origami-crease-patterns">Creasy (Computational Origami, Crease Patterns)<a href="#creasy-computational-origami-crease-patterns" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div style="display:grid;grid-template-columns: 1fr 1fr">
+  <div style="text-align:center;margin:auto">
+    Creasy is a software tailored to computational origami which implements an algorithm that turns flat-foldable crease patterns into folding sequences.
+  </div>
+  <div>
+    <a href="https://github.com/xkevio/Creasy"><img style="margin: 0 auto;width: 50%" src="/images/creasy.png" alt="A white paper-like C on a light blue background"></a>
+  </div>
+</div>
+<hr>
 
       </div></div>
 
@@ -300,7 +257,7 @@
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+        <span>© 2026 Powered by <a href="https://gohugo.io">Hugo</a></span>
     
       <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
