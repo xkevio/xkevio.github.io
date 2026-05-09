@@ -7,3 +7,12 @@
 img {
   border: none;
 }
+
+ul.menu__dropdown li a {
+  word-break: normal;
+}
+
+pre {
+  display: flex;
+  justify-content: center;
+}
