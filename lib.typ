@@ -74,7 +74,7 @@
                 width: 3em,
                 alt: "GitHub Icon",
               ),
-            )][#link("https://bsky.app/profile/xkev.io", image(
+            )][#link("https://bsky.app/profile/kevio.eu", image(
               "assets/bsky.svg",
               width: 3em,
               alt: "A butterfly representing the Bluesky icon",
