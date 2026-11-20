@@ -136,4 +136,9 @@
 
   // NOTE: Add `extra` option for random assets.
   asset("favicon.png", read("favicon.png", encoding: none))
+  asset("CNAME", read("CNAME"))
+  asset("gameboy/index.html", read("gameboy/index.html"))
+  asset("gameboy/kevboy.js", read("gameboy/kevboy.js"))
+  asset("gameboy/sw.js", read("gameboy/sw.js"))
+  asset("gameboy/kevboy_bg.wasm", read("gameboy/kevboy_bg.wasm", encoding: none))
 }
