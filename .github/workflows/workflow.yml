@@ -13,7 +13,7 @@ jobs:
       - name: Install Typst via Community Action
         uses: typst-community/setup-typst@v5
       - name: Compile & Render Thesis
-        run: typst compile main.typ --features=html,bundle --format=bundle
+        run: typst compile main.typ --features=html,bundle --format=bundle --font-path=./assets/fonts
 
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v5
