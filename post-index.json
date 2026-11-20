@@ -1,0 +1,12 @@
+{
+  "./posts/gba_emu.typ": {
+    "title": "Game Boy Advance Emulation",
+    "date": "datetime(year: 2025, month: 6, day: 7)",
+    "description": "I am still very much into developing emulators (with some downtime here and there) and even worked on a new for one for the Game Boy Advance, partially also for my bachelor's thesis. This introduced me to a little bit of Just-in-Time compilation."
+  },
+  "./posts/gb_emu.typ": {
+    "title": "Game Boy (DMG-01) Emulation",
+    "date": "datetime(year: 2023, month: 3, day: 20)",
+    "description": "It’s been a few months but my Game Boy emulator is all but finished – or at least ready to be published. Now, for people following me on GitHub it has been available the entire time but now I am at a point where most major features are implemented, plus a few extras, and the UI is presentable!"
+  }
+}
