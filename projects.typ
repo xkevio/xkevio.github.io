@@ -27,7 +27,7 @@ Source code is available on #link("https://github.com/xkevio/kba")[GitHub].
 
 A Game Boy and Game Boy Color emulator written in Rust, using `egui` for an immediate mode GUI and WASM-based browser version. Runs fast and marks my first real foray into console emulation. Pre-built binaries as well as further installation instructions and the source code are available on #link("https://github.com/xkevio/kevboy")[GitHub].
 
-#link("https://kevio.eu/gameboy")[>> Browser version available here! <<]
+#link("https://kevio.eu/gameboy/")[>> Browser version available here! <<]
 
 #html.div(style: "display:flex", {
   image(
