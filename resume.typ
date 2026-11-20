@@ -124,5 +124,5 @@
 
   - #link("https://github.com/parcio/templates")[*parcio-thesis / parcio-slides (Typst Templates)*]: ParCIO#footnote[Parallel Computing and I/O working group at OVGU Magdeburg]-inspired thesis & slides template made with Typst. Officially endorsed by the head of the working group and incorporated as a valid alternative; since used in numerous theses instead of the LaTeX variants.
 
-  - #link("https://typst.app/universe/packages/retrofit")[*retrofit (Custom Backreferences for Typst Bibliographies)*]: retrofit adds back-references, i.e., references to each page a citation was used, for all bibliography entries in a Typst document. Consists of a Rust-based plugin compiled to WASM which is then loaded by the corresponding Typst package. The plugin hooks into internal rendering code and constructs a sorted bibliography copy for correct assignment of back-references.
+  - #link("https://typst.app/universe/package/retrofit")[*retrofit (Custom Backreferences for Typst Bibliographies)*]: retrofit adds back-references, i.e., references to each page a citation was used, for all bibliography entries in a Typst document. Consists of a Rust-based plugin compiled to WASM which is then loaded by the corresponding Typst package. The plugin hooks into internal rendering code and constructs a sorted bibliography copy for correct assignment of back-references.
 ]
