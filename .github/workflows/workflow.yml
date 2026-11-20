@@ -1,0 +1,32 @@
+name: Build & Deploy
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install Typst via Community Action
+        uses: typst-community/setup-typst@v5
+      - name: Compile & Render Thesis
+        run: typst compile main.typ --features=html,bundle --format=bundle
+
+      - name: Upload static files as artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: main/
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
