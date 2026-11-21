@@ -418,7 +418,17 @@ p {
   padding: 0;
   border: 1px solid white;
   margin: 25px auto;
-  /* filter: grayscale(100%); */
+}
+
+#contact {
+  display: none;
+  grid-template-columns: repeat(4, 1fr);
+  width: 50%;
+  margin: 1em auto;
+}
+
+#contact img {
+  margin: 0;
 }
 
 .sidebar aside>table,
@@ -478,6 +488,12 @@ hr {
   border: none;
 }
 
+@media (min-width: 1120px) {
+  hr:has(+ #contact) {
+    display: none;
+  }
+}
+
 @media (max-width: 1119px) {
   main {
     display: block;
@@ -498,12 +514,16 @@ hr {
   .sidebar {
     display: none
   }
+
+  #contact {
+    display: grid;
+  }
 }
 
 @media (max-width: 769px) {
 
   figure,
-  .main>hr {
+  .main>hr:has(+ h2) {
     display: none
   }
 

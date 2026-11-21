@@ -9,14 +9,20 @@
 ))
 
 #site(
-  home: post(path: "index.html", title: [Home], label: <home>, include "index.typ"),
-  nav: (
+  pages: (
+    post(path: "index.html", title: [Home], label: <home>, include "index.typ"),
     post(path: "about.html", title: [About], label: <about>, include "about.typ"),
     post(path: "resume.pdf", label: <resume>, include "resume.typ"),
     post(path: "projects.html", title: [Projects], label: <projects>, include "projects.typ"),
   ),
   posts: post-index-to-post(json("post-index.json")),
-  styles: (
-    asset("style.css", read("style.css")),
+  styles: (asset("style.css", read("style.css")),),
+  extra: (
+    asset("favicon.png", read("favicon.png", encoding: none)),
+    asset("CNAME", read("CNAME")),
+    asset("gameboy/index.html", read("gameboy/index.html")),
+    asset("gameboy/kevboy.js", read("gameboy/kevboy.js")),
+    asset("gameboy/sw.js", read("gameboy/sw.js")),
+    asset("gameboy/kevboy_bg.wasm", read("gameboy/kevboy_bg.wasm", encoding: none)),
   ),
 )

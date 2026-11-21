@@ -108,37 +108,24 @@
 /// Site management.
 ///
 /// Combines all `document` and `asset` bundles categorized
-/// by a home page (index.html), nav elements and posts. Optional style assets
-/// may also be provided.
+/// by a main `pages` (for navigation) and `posts`.
+///
+/// Optional style assets and extras may also be provided.
 ///
 /// -> content
 #let site(
-  home: auto,
-  nav: (),
+  pages: (),
   posts: (),
   styles: (),
+  extra: (),
 ) = {
   // Add stylesheet paths to state for custom HTML head.
   if styles.len() > 0 {
     style-state.update(styles)
   }
 
-  // Assume default `index.typ` -> `index.html` conversion if no custom landing page is provided.
-  if home == auto {
-    post(path: "index.html", title: [Home], label: <index>, include "index.typ")
-  } else {
-    home
-  }
-
-  nav.join()
+  pages.join()
   posts
   styles.join()
-
-  // NOTE: Add `extra` option for random assets.
-  asset("favicon.png", read("favicon.png", encoding: none))
-  asset("CNAME", read("CNAME"))
-  asset("gameboy/index.html", read("gameboy/index.html"))
-  asset("gameboy/kevboy.js", read("gameboy/kevboy.js"))
-  asset("gameboy/sw.js", read("gameboy/sw.js"))
-  asset("gameboy/kevboy_bg.wasm", read("gameboy/kevboy_bg.wasm", encoding: none))
+  extra.join()
 }

@@ -1,4 +1,4 @@
-#set document(author: "Kevin Kulot", title: "Curriculum Vitae")
+#set document(author: "Kevin Kulot", title: "Curriculum Vitae", keywords: ())
 #set page(numbering: "1 / 1")
 #set text(font: "New Computer Modern Sans", 10pt)
 #set par(justify: true)
