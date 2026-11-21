@@ -57,7 +57,7 @@
     _Bachelor of Science in Computational Visualistics_\
     #set text(.8em)
     - "Performance Analysis of LLVM and Cranelift Codegen for Just-in-Time Compilation in Emulation"
-    - Graduated with an average grade of 1.8 and a thesis grade of 1.2.
+    - Graduated with an average grade of 1.8 (GPA $approx$ 3.2) and a thesis grade of 1.2 (GPA $approx$ 3.8).
   ],
 )
 
