@@ -420,15 +420,16 @@ p {
   margin: 25px auto;
 }
 
-#contact {
+footer {
   display: none;
   grid-template-columns: repeat(4, 1fr);
-  width: 50%;
+  align-items: center;
   margin: 1em auto;
+  border-top: 1px solid white;
 }
 
-#contact img {
-  margin: 0;
+footer img {
+  margin: 1em auto;
 }
 
 .sidebar aside>table,
@@ -488,12 +489,6 @@ hr {
   border: none;
 }
 
-@media (min-width: 1120px) {
-  hr:has(+ #contact) {
-    display: none;
-  }
-}
-
 @media (max-width: 1119px) {
   main {
     display: block;
@@ -515,7 +510,7 @@ hr {
     display: none
   }
 
-  #contact {
+  footer {
     display: grid;
   }
 }

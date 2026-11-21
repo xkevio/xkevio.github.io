@@ -1,12 +1,16 @@
 #import "lib.typ": post, post-index-to-post, site
-#set document(author: "Kevio", keywords: (
-  "kevio",
-  "xkevio",
-  "blog",
-  "Game Boy",
-  "Game Boy Advance",
-  "Emulation",
-))
+#set document(
+  author: "Kevio",
+  description: "Kevio's personal homepage and digital footprint.",
+  keywords: (
+    "kevio",
+    "xkevio",
+    "blog",
+    "Game Boy",
+    "Game Boy Advance",
+    "Emulation",
+  ),
+)
 
 #site(
   pages: (

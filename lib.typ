@@ -1,4 +1,28 @@
 #let style-state = state("styles", ())
+#let social-media = (
+  link("mailto:mail@kevio.eu", image(
+    "assets/mail.svg",
+    width: 3em,
+    alt: "An envelope / mail icon",
+  )),
+  link(
+    "https://github.com/xkevio",
+    image(
+      "assets/github.png",
+      width: 3em,
+      alt: "GitHub Icon",
+    ),
+  ),
+  link("https://bsky.app/profile/kevio.eu", image(
+    "assets/bsky.svg",
+    width: 3em,
+    alt: "A butterfly representing the Bluesky icon",
+  )),
+  link(
+    "https://machteburch.social/@kevio",
+    image("assets/mstdn.svg", width: 3em, alt: "Mastodon Icon"),
+  ),
+)
 
 #let time(datetime) = html.time(datetime: datetime, style: "color: gray", datetime.display())
 #let html-custom(title, body) = html.html(lang: "en", {
@@ -7,6 +31,7 @@
     html.meta(name: "viewport", content: "width=device-width, initial-scale=1")
     html.meta(name: "author", content: document.author.join(","))
     html.meta(name: "keywords", content: document.keywords.join(", "))
+    html.meta(name: "description", content: document.description.text)
 
     html.title(title)
     html.link(rel: "icon", type: "image/x-icon", href: "/favicon.png")
@@ -42,7 +67,6 @@
         html.section(class: "main", body)
         html.section(class: "sidebar")[
           #html.aside[
-
             #image(
               "assets/kevio.png",
               width: 150pt,
@@ -63,28 +87,12 @@
 
             _Magdeburg, Germany_
 
-            #table(columns: (4 * (1fr,)))[#link("mailto:mail@kevio.eu", image(
-              "assets/mail.svg",
-              width: 3em,
-              alt: "An envelope / mail icon",
-            ))][#link(
-              "https://github.com/xkevio",
-              image(
-                "assets/github.png",
-                width: 3em,
-                alt: "GitHub Icon",
-              ),
-            )][#link("https://bsky.app/profile/kevio.eu", image(
-              "assets/bsky.svg",
-              width: 3em,
-              alt: "A butterfly representing the Bluesky icon",
-            ))][#link(
-              "https://machteburch.social/@kevio",
-              image("assets/mstdn.svg", width: 3em, alt: "Mastodon Icon"),
-            )]
+            #table(columns: (4 * (1fr,)), ..social-media)
           ]
         ]
       })
+
+      html.footer({ social-media.join() })
     }
   ]#std.label(str(label))
 ]

@@ -14,29 +14,3 @@ I’ve developed emulators for the following systems:
 
 For my next emulation project, I plan to tackle a 3D console such as the PlayStation 1 or Nintendo DS to elevate my computer graphics fundamentals.
 When I am not staring at code, I either hit the gym or climb the virtual skies in MSFS 2024 on VATSIM.
-
-#divider()
-#html.div(id: "contact", {
-  link("mailto:mail@kevio.eu", image(
-    "../assets/mail.svg",
-    width: 3em,
-    alt: "An envelope / mail icon",
-  ))
-  link(
-    "https://github.com/xkevio",
-    image(
-      "../assets/github.png",
-      width: 3em,
-      alt: "GitHub Icon",
-    ),
-  )
-  link("https://bsky.app/profile/kevio.eu", image(
-    "../assets/bsky.svg",
-    width: 3em,
-    alt: "A butterfly representing the Bluesky icon",
-  ))
-  link(
-    "https://machteburch.social/@kevio",
-    image("../assets/mstdn.svg", width: 3em, alt: "Mastodon Icon"),
-  )
-})
