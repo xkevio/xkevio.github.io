@@ -10,15 +10,15 @@
 
 #site(
   pages: (
-    post(path: "index.html", title: [Home], label: <home>, include "index.typ"),
-    post(path: "about.html", title: [About], label: <about>, include "about.typ"),
-    post(path: "resume.pdf", label: <resume>, include "resume.typ"),
-    post(path: "projects.html", title: [Projects], label: <projects>, include "projects.typ"),
+    post(path: "index.html", title: [Home], label: <home>, include "pages/index.typ"),
+    post(path: "about.html", title: [About], label: <about>, include "pages/about.typ"),
+    post(path: "resume.pdf", label: <resume>, include "pages/resume.typ"),
+    post(path: "projects.html", title: [Projects], label: <projects>, include "pages/projects.typ"),
   ),
-  posts: post-index-to-post(json("post-index.json")),
+  posts: post-index-to-post(json("utils/post-index.json")),
   styles: (asset("style.css", read("style.css")),),
   extra: (
-    asset("favicon.png", read("favicon.png", encoding: none)),
+    asset("favicon.png", read("assets/favicon.png", encoding: none)),
     asset("CNAME", read("CNAME")),
     asset("gameboy/index.html", read("gameboy/index.html")),
     asset("gameboy/kevboy.js", read("gameboy/kevboy.js")),

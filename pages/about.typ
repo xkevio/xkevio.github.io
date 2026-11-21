@@ -18,25 +18,25 @@ When I am not staring at code, I either hit the gym or climb the virtual skies i
 #divider()
 #html.div(id: "contact", {
   link("mailto:mail@kevio.eu", image(
-    "assets/mail.svg",
+    "../assets/mail.svg",
     width: 3em,
     alt: "An envelope / mail icon",
   ))
   link(
     "https://github.com/xkevio",
     image(
-      "assets/github.png",
+      "../assets/github.png",
       width: 3em,
       alt: "GitHub Icon",
     ),
   )
   link("https://bsky.app/profile/kevio.eu", image(
-    "assets/bsky.svg",
+    "../assets/bsky.svg",
     width: 3em,
     alt: "A butterfly representing the Bluesky icon",
   ))
   link(
     "https://machteburch.social/@kevio",
-    image("assets/mstdn.svg", width: 3em, alt: "Mastodon Icon"),
+    image("../assets/mstdn.svg", width: 3em, alt: "Mastodon Icon"),
   )
 })

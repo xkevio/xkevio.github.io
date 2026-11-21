@@ -15,9 +15,9 @@ Uses a LUT generated at build-time for opcode lookups based on certain bit patte
 Source code is available on #link("https://github.com/xkevio/kba")[GitHub].
 
 #html.div(style: "display:flex", {
-  image("assets/gba.png", width: 50%, alt: "A screenshot of the Pokémon Emerald title screen.")
+  image("../assets/gba.png", width: 50%, alt: "A screenshot of the Pokémon Emerald title screen.")
   image(
-    "assets/gba2.png",
+    "../assets/gba2.png",
     width: 50%,
     alt: "A screenshot of the Pokémon Emerald dry battery dialog.",
   )
@@ -31,12 +31,12 @@ A Game Boy and Game Boy Color emulator written in Rust, using `egui` for an imme
 
 #html.div(style: "display:flex", {
   image(
-    "assets/gb.png",
+    "../assets/gb.png",
     width: 50%,
     alt: "A screenshot of the \"Kirby's Dream Land\" title screen.",
   )
   image(
-    "assets/gb2.png",
+    "../assets/gb2.png",
     width: 50%,
     alt: "A screenshot of the VRAM viewer, memory viewer, and other options in kevboy.",
   )
@@ -48,7 +48,7 @@ A Game Boy and Game Boy Color emulator written in Rust, using `egui` for an imme
 
 Submitted to the Typst Universe as to make it available within the Typst package management ecosystem; maintained through several version updates. Now officially managed by the ParCIO group and available either through the #link("https://typst.app/universe/package/parcio-thesis")[Typst Universe] or their #link("https://github.com/parcio/templates")[ParCIO Templates] GitHub repository.
 
-#image("assets/thesis-slides.png", alt: "A thesis cover page and two slides.")
+#image("../assets/thesis-slides.png", alt: "A thesis cover page and two slides.")
 
 == > retrofit -- Custom Backreferences for Typst Bibliographies
 
@@ -57,7 +57,7 @@ Submitted to the Typst Universe as to make it available within the Typst package
 #html.details[
   #html.summary[Click here for a usage example!]
   #image(
-    "assets/retrofit.png",
+    "../assets/retrofit.png",
     alt: "An example usage of retrofit: A code block showing the API and the rendered result.",
   )
 ]

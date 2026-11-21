@@ -1,4 +1,4 @@
-#import "lib.typ": time
+#import "../lib.typ": time
 
 #figure(numbering: none)[
   ```
@@ -21,7 +21,7 @@
 = Recent Posts
 
 // Automatically read out all posts from index file (see `make-post-index.sh`).
-#for post in json("post-index.json") [
+#for post in json("../utils/post-index.json") [
   #let post-label = label(post.first().trim("./posts/", at: start).trim(".typ", at: end))
   #let (title, date, description) = post.at(1)
   == #link(post-label)[> #title]
